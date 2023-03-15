@@ -47,7 +47,7 @@ def as_data_cube(data):
 def create_resources(collector: Graph, data):
     resources.create_county(collector, data)
     resources.create_region(collector, data)
-    resources.create_region(collector, data)
+    resources.create_field_of_care(collector, data)
 
 
 def create_dimensions(collector: Graph):

@@ -1,0 +1,124 @@
+﻿{
+  "@context": [
+    "http://www.w3.org/ns/csvw",
+    {
+      "@language": "cs"
+    }
+  ],
+  "url": "population.csv",
+  "tableSchema": {
+    "columns": [
+      {
+        "name": "idhod",
+        "titles": "idhod",
+        "dc:description": {
+          "cs": "unikátní identifikátor údaje Veřejné databáze ČSÚ",
+          "en": "unique identifier of the data in the public database of the Czech Statistical Office"
+        },
+        "required": true,
+        "datatype": "string"
+      },
+      {
+        "name": "hodnota",
+        "titles": "hodnota",
+        "dc:description": {
+          "cs": "zjištěná hodnota",
+          "en": "measured value"
+        },
+        "required": true,
+        "datatype": "number"
+      },
+      {
+        "name": "vuk",
+        "titles": "vuk",
+        "dc:description": {
+          "cs": "kód výstupního ukazatele veřejné databáze",
+          "en": "code of the output indicator in the public database"
+        },
+        "required": true,
+        "datatype": "string"
+      },
+      {
+        "name": "vuk_txt",
+        "titles": "vuk_txt",
+        "dc:description": {
+          "cs": "název výstupního ukazatele",
+          "en": "name of the output indicator, mean population = DEM0004"
+        },
+        "required": true,
+        "datatype": "string"
+      },
+      {
+        "name": "stapro_kod",
+        "titles": "stapro_kod",
+        "dc:description": {
+          "cs": "kód statistické proměnné ze systému SMS UKAZ",
+          "en": "code of the statistical variable from the system SMS UKAZ"
+        },
+        "required": true,
+        "datatype": "string"
+      },
+      {
+        "name": "vuzemi_cis",
+        "titles": "vuzemi_cis",
+        "dc:description": {
+          "cs": "kód číselníku pro referenční území, číselník odpovídá typologii území, stát (Česká republika) má kód 97, kraje kód 100, okresy kód 101, správní obvody ORP 65, obce 43",
+          "en": "value of the reference area codelist, the codelist corresponds to the geographical topology, the state (Czech Republic) has code 97, the regions code 100, the districts code 101, the city 43"
+        },
+        "required": true,
+        "datatype": "string"
+      },
+      {
+        "name": "vuzemi_kod",
+        "titles": "vuzemi_kod",
+        "dc:description": {
+          "cs": "kód položky z číselníku pro referenční území",
+          "en": "code of the item of the reference area codelist"
+        },
+        "required": true,
+        "datatype": "string"
+      },
+      {
+        "name": "rok",
+        "titles": "rok",
+        "dc:description": {
+          "cs": "referenční období - extract roku ve formátu RRRR",
+          "en": "reference period - year in format RRRR"
+        },
+        "required": true,
+        "datatype": "number"
+      },
+      {
+        "name": "casref_od",
+        "titles": "casref_od",
+        "dc:description": {
+          "cs": "referenční období - začátek intervalu - ve formátu RRRR-MM-DD",
+          "en": "reference period - start of the interval - in format RRRR-MM-DD"
+        },
+        "required": true,
+        "datatype": "date"
+      },
+      {
+        "name": "casref_do",
+        "titles": "casref_do",
+        "dc:description": {
+          "cs": "referenční období - konec intervalu - ve formátu RRRR-MM-DD",
+          "en": "reference period - end of the interval - in format RRRR-MM-DD"
+        },
+        "required": true,
+        "datatype": "date"
+      },
+      {
+        "name": "vuzemi_txt",
+        "titles": "vuzemi_txt",
+        "dc:description": {
+          "cs": "text položky z číselníku pro referenční území",
+          "en": "text of the item of the reference area codelist (name of the reference area)"
+        },
+        "required": true,
+        "datatype": "string"
+      }
+    ],
+    "primaryKey": "idhod"
+  }
+}
