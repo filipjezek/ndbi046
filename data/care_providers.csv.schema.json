@@ -1,0 +1,420 @@
+{
+  "@context": [
+    "http://www.w3.org/ns/csvw",
+    {
+      "@language": "en"
+    }
+  ],
+  "url": "care_providers.csv",
+  "dc:title": {
+    "cs": "Národní registr poskytovatelů zdravotních služeb",
+    "en": "National Register of Health Service Providers"
+  },
+  "dcat:keyword": ["registr", "poskytovatel zdravotních služeb"],
+  "dc:publisher": {
+    "schema:name": "ÚZIS ČR",
+    "schema:url": {
+      "@id": "http://nrpzs.uzis.cz/"
+    }
+  },
+  "dc:license": {
+    "@id": "https://data.gov.cz/podmínky-užití/volný-přístup/"
+  },
+  "dc:modified": {
+    "@value": "2022-03-01",
+    "@type": "xsd:date"
+  },
+  "tableSchema": {
+    "columns": [
+      {
+        "name": "MistoPoskytovaniId",
+        "titles": {
+          "@cs": "MistoPoskytovaniId",
+          "@en": "PlaceOfServiceId"
+        },
+        "datatype": "integer"
+      },
+      {
+        "name": "ZdravotnickeZarizeniId",
+        "titles": {
+          "@cs": "ZdravotnickeZarizeniId",
+          "@en": "MedicalFacilityId"
+        },
+        "datatype": "integer"
+      },
+      {
+        "name": "Kod",
+        "titles": {
+          "@cs": "Kod",
+          "@en": "Code"
+        },
+        "datatype": "string",
+        "dc:description": {
+          "@cs": "univerzální kód zdravotnického zařízení",
+          "@en": "universal code of medical facility"
+        }
+      },
+      {
+        "name": "NazevZarizeni",
+        "titles": {
+          "@cs": "NazevZarizeni",
+          "@en": "FacilityName"
+        },
+        "datatype": "string",
+        "dc:description": {
+          "@cs": "název zdravotnického zařízení",
+          "@en": "medical facility name"
+        }
+      },
+      {
+        "name": "DruhZarizeni",
+        "titles": {
+          "@cs": "DruhZarizeni",
+          "@en": "FacilityType"
+        },
+        "datatype": "string",
+        "dc:description": {
+          "@cs": "textová hodnota z číselníku, unikátní",
+          "@en": "text value from a codelist, unique"
+        }
+      },
+      {
+        "name": "Obec",
+        "titles": {
+          "@cs": "Obec",
+          "@en": "city"
+        },
+        "datatype": "string",
+        "dc:description": {
+          "@cs": "adresa místa poskytování: obec",
+          "@en": "address of place of service: city"
+        }
+      },
+      {
+        "name": "Psc",
+        "titles": {
+          "@cs": "Psc",
+          "@en": "PostalCode"
+        },
+        "datatype": "string",
+        "dc:description": {
+          "@cs": "adresa místa poskytování: PSČ",
+          "@en": "address of place of service: postal code"
+        }
+      },
+      {
+        "name": "Ulice",
+        "titles": {
+          "@cs": "Ulice",
+          "@en": "Street"
+        },
+        "datatype": "string",
+        "dc:description": {
+          "@cs": "adresa místa poskytování: ulice",
+          "@en": "address of place of service: street"
+        }
+      },
+      {
+        "name": "CisloDomovniOrientacni",
+        "titles": {
+          "@cs": "CisloDomovniOrientacni",
+          "@en": "HouseNumber"
+        },
+        "datatype": "string",
+        "dc:description": {
+          "@cs": "adresa místa poskytování: č. orientační",
+          "@en": "address of place of service: house number"
+        }
+      },
+      {
+        "name": "Kraj",
+        "titles": {
+          "@cs": "Kraj",
+          "@en": "Region"
+        },
+        "datatype": "string",
+        "dc:description": {
+          "@cs": "adresa místa poskytování: kraj",
+          "@en": "address of place of service: region"
+        }
+      },
+      {
+        "name": "KrajCode",
+        "titles": {
+          "@cs": "KrajCode",
+          "@en": "RegionCode"
+        },
+        "datatype": "string",
+        "dc:description": {
+          "@cs": "adresa místa poskytování: kód kraje",
+          "@en": "address of place of service: region code"
+        }
+      },
+      {
+        "name": "Okres",
+        "titles": {
+          "@cs": "Okres",
+          "@en": "County"
+        },
+        "datatype": "string",
+        "dc:description": {
+          "@cs": "adresa místa poskytování: okres",
+          "@en": "address of place of service: county"
+        }
+      },
+      {
+        "name": "OkresCode",
+        "titles": {
+          "@cs": "OkresCode",
+          "@en": "CountyCode"
+        },
+        "datatype": "string",
+        "dc:description": {
+          "@cs": "adresa místa poskytování: kód okresu",
+          "@en": "address of place of service: county code"
+        }
+      },
+      {
+        "name": "SpravniObvod",
+        "titles": {
+          "@cs": "SpravniObvod",
+          "@en": "AdministrativeDistrict"
+        },
+        "datatype": "string",
+        "dc:description": {
+          "@cs": "adresa místa poskytování: správní obvod (Praha)",
+          "@en": "address of place of service: administrative district (Praha)"
+        }
+      },
+      {
+        "name": "PoskytovatelTelefon",
+        "titles": {
+          "@cs": "PoskytovatelTelefon",
+          "@en": "ProviderPhone"
+        },
+        "datatype": "string",
+        "dc:description": {
+          "@cs": "poskytovatel: telefon",
+          "@en": "provider: phone"
+        }
+      },
+      {
+        "name": "PoskytovatelFax",
+        "titles": {
+          "@cs": "PoskytovatelFax",
+          "@en": "ProviderFax"
+        },
+        "datatype": "string",
+        "dc:description": {
+          "@cs": "poskytovatel: fax",
+          "@en": "provider: fax"
+        }
+      },
+      {
+        "name": "PoskytovatelEmail",
+        "titles": {
+          "@cs": "PoskytovatelEmail",
+          "@en": "ProviderEmail"
+        },
+        "datatype": "string",
+        "dc:description": {
+          "@cs": "poskytovatel: e-mail",
+          "@en": "provider: e-mail"
+        }
+      },
+      {
+        "name": "PoskytovatelWeb",
+        "titles": {
+          "@cs": "PoskytovatelWeb",
+          "@en": "ProviderWeb"
+        },
+        "datatype": "string",
+        "dc:description": {
+          "@cs": "poskytovatel: web",
+          "@en": "provider: web"
+        }
+      },
+      {
+        "name": "Ico",
+        "titles": {
+          "@cs": "Ico",
+          "@en": "Ico"
+        },
+        "datatype": "string",
+        "dc:description": {
+          "@cs": "IČO poskytovatele",
+          "@en": "identification code of the provider"
+        }
+      },
+      {
+        "name": "TypOsoby",
+        "titles": {
+          "@cs": "TypOsoby",
+          "@en": "TypeOfPerson"
+        },
+        "datatype": "string",
+        "dc:description": {
+          "@cs": "zřizovatel: typ právnické osoby",
+          "@en": "founder: type of legal person"
+        }
+      },
+      {
+        "name": "PravniFormaKod",
+        "titles": {
+          "@cs": "PravniFormaKod",
+          "@en": "LegalFormCode"
+        },
+        "datatype": "string",
+        "dc:description": {
+          "@cs": "zřizovatel: kód právní formy",
+          "@en": "founder: legal form code"
+        }
+      },
+      {
+        "name": "KrajCodeSidlo",
+        "titles": {
+          "@cs": "KrajCodeSidlo",
+          "@en": "FounderRegionCode"
+        },
+        "datatype": "string",
+        "dc:description": {
+          "@cs": "zřizovatel adresa sídla: kód kraje",
+          "@en": "founder address: region code"
+        }
+      },
+      {
+        "name": "OkresCodeSidlo",
+        "titles": {
+          "@cs": "OkresCodeSidlo",
+          "@en": "FounderCountyCode"
+        },
+        "datatype": "string",
+        "dc:description": {
+          "@cs": "zřizovatel adresa sídla: kód okresu",
+          "@en": "founder address: county code"
+        }
+      },
+      {
+        "name": "ObecSidlo",
+        "titles": {
+          "@cs": "ObecSidlo",
+          "@en": "FounderCity"
+        },
+        "datatype": "string",
+        "dc:description": {
+          "@cs": "zřizovatel adresa sídla: obec",
+          "@en": "founder address: city"
+        }
+      },
+      {
+        "name": "PscSidlo",
+        "titles": {
+          "@cs": "PscSidlo",
+          "@en": "FounderPostalCode"
+        },
+        "datatype": "string",
+        "dc:description": {
+          "@cs": "zřizovatel adresa sídla: PSČ",
+          "@en": "founder address: postal code"
+        }
+      },
+      {
+        "name": "UliceSidlo",
+        "titles": {
+          "@cs": "UliceSidlo",
+          "@en": "FounderStreet"
+        },
+        "datatype": "string",
+        "dc:description": {
+          "@cs": "zřizovatel adresa sídla: ulice",
+          "@en": "founder address: street"
+        }
+      },
+      {
+        "name": "CisloDomovniOrientacniSidlo",
+        "titles": {
+          "@cs": "CisloDomovniOrientacniSidlo",
+          "@en": "FounderHouseNumber"
+        },
+        "datatype": "string",
+        "dc:description": {
+          "@cs": "zřizovatel adresa sídla: č. orientační",
+          "@en": "founder address: house number"
+        }
+      },
+      {
+        "name": "OborPece",
+        "titles": {
+          "@cs": "OborPece",
+          "@en": "FieldOfCare"
+        },
+        "datatype": "string",
+        "dc:description": {
+          "@cs": "textové hodnoty z číselníku OborPece",
+          "@en": "text values from field of care codelist"
+        }
+      },
+      {
+        "name": "FormaPece",
+        "titles": {
+          "@cs": "FormaPece",
+          "@en": "FormOfCare"
+        },
+        "datatype": "string",
+        "dc:description": {
+          "@cs": "textové hodnoty z číselníku FormaPece",
+          "@en": "text values from form of care codelist"
+        }
+      },
+      {
+        "name": "DruhPece",
+        "titles": {
+          "@cs": "DruhPece",
+          "@en": "TypeOfCare"
+        },
+        "datatype": "string",
+        "dc:description": {
+          "@cs": "textové hodnoty z číselníku DruhPece",
+          "@en": "text values from type of care codelist"
+        }
+      },
+      {
+        "name": "OdbornyZastupce",
+        "titles": {
+          "@cs": "OdbornyZastupce",
+          "@en": "Representative"
+        },
+        "datatype": "string",
+        "dc:description": {
+          "@cs": "odborný zástupce",
+          "@en": "responsible person"
+        }
+      },
+      {
+        "name": "Lat",
+        "titles": {
+          "@cs": "Lat",
+          "@en": "Lat"
+        },
+        "datatype": "string",
+        "dc:description": {
+          "@cs": "GPS souřadnice místa poskytování, WGS84 šířka",
+          "@en": "GPS coordinates of the place of provision, WGS84 latitude"
+        }
+      },
+      {
+        "name": "Lng",
+        "titles": {
+          "@cs": "Lng",
+          "@en": "Lng"
+        },
+        "datatype": "string",
+        "dc:description": {
+          "@cs": "GPS souřadnice místa poskytování, WGS84 délka",
+          "@en": "GPS coordinates of the place of provision, WGS84 length"
+        }
+      }
+    ],
+    "primaryKey": ["MistoPoskytovaniId", "ZdravotnickeZarizeniId"]
+  }
+}
