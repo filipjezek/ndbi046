@@ -2,6 +2,7 @@
 import itertools as it
 import argparse
 import sys
+from io import TextIOWrapper
 
 from rdflib import Graph, Literal
 # See https://rdflib.readthedocs.io/en/latest/_modules/rdflib/namespace.html
@@ -15,9 +16,13 @@ from cube_lib.dataset import create_dataset, create_structure
 
 def main():
     args = init_args()
-    data_as_csv = load_csv_file_as_object(args.src)
-    data_cube = as_data_cube(data_as_csv)
+    data_cube = create_cube(args.src)
     data_cube.serialize(format='ttl', encoding='UTF-8', destination=args.out)
+
+
+def create_cube(src: TextIOWrapper) -> Graph:
+    data_as_csv = load_csv_file_as_object(src)
+    return as_data_cube(data_as_csv)
 
 
 def init_args():

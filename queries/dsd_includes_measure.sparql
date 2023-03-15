@@ -1,0 +1,8 @@
+ASK {
+  ?dsd a qb:DataStructureDefinition .
+
+  # FILTER NOT EXISTS { ?dsd qb:component [qb:componentProperty [a qb:MeasureProperty]] }
+  # cube.query() does not take into account subProperties (apparently)
+
+  FILTER NOT EXISTS { ?dsd qb:component [qb:measure [a qb:MeasureProperty]] }
+}
