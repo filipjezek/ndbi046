@@ -52,8 +52,7 @@ def create_dataset_entry(collector: Graph, cube_file: TextIOWrapper):
     collector.add((NSR.PopulationDataCube, DCAT.theme,
                   URIRef('http://eurovoc.europa.eu/2908')))
 
-    distribution = URIRef(
-        'https://github.com/filipjezek/ndbi046/tree/master/task_5/data/population-cube.ttl')
+    distribution = NSR['data-catalog.ttl']
     collector.add((NSR.PopulationDataCube, DCAT.distribution, distribution))
     collector.add((distribution, RDF.type, DCAT.Distribution))
     collector.add((distribution, DCAT.accessURL, distribution))
