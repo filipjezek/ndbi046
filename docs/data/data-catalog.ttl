@@ -1,0 +1,28 @@
+@prefix ns1: <http://www.w3.org/ns/dcat#> .
+@prefix ns2: <http://purl.org/dc/terms/> .
+@prefix ns3: <http://spdx.org/rdf/terms#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://filipjezek.github.io/resources/PopulationDataCube> a ns1:Dataset ;
+    rdfs:label "Population data cube"@en ;
+    ns2:accrualPeriodicity <http://publications.europa.eu/resource/authority/frequency/NEVER> ;
+    ns2:creator <https://github.com/filipjezek> ;
+    ns2:description "A data cube containing mean population of Czech counties and regions in 2021"@en ;
+    ns2:publisher <https://github.com/filipjezek> ;
+    ns2:spatial <http://publications.europa.eu/resource/authority/country/CZE> ;
+    ns2:title "Population data cube"@en ;
+    ns1:distribution <https://filipjezek.github.io/resources/PopulationDataCube.ttl> ;
+    ns1:keyword "district"@en,
+        "population"@en,
+        "region"@en ;
+    ns1:theme <http://eurovoc.europa.eu/2908> .
+
+<https://filipjezek.github.io/resources/PopulationDataCube.ttl> a ns1:Distribution ;
+    ns2:format <http://publications.europa.eu/resource/authority/file-type/RDF_TURTLE> ;
+    ns3:checksum [ a ns3:Checksum ;
+            ns3:algorithm ns3:checksumAlgorithm_sha1 ;
+            ns3:checksumValue "6e454d74fb027efca4ed1cd324ec6f8e5e416e2a"^^xsd:hexBinary ] ;
+    ns1:accessURL <https://filipjezek.github.io/resources/PopulationDataCube.ttl> ;
+    ns1:mediaType <http://www.iana.org/assignments/media-types/text/turtle> .
+

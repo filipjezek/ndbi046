@@ -1,0 +1,1332 @@
+@prefix ns1: <http://www.w3.org/2004/02/skos/core#> .
+@prefix ns2: <https://filipjezek.github.io/ontology#> .
+@prefix ns3: <http://purl.org/linked-data/cube#> .
+@prefix ns4: <http://purl.org/dc/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://filipjezek.github.io/resources/County> a rdfs:Class,
+        owl:Class ;
+    rdfs:label "Číselník okresů - třída"@cs,
+        "Code list for counties - class"@en ;
+    rdfs:subClassOf ns1:Concept ;
+    ns1:prefLabel "Číselník okresů - třída"@cs,
+        "Code list for counties - class"@en .
+
+<https://filipjezek.github.io/resources/Region> a rdfs:Class,
+        owl:Class ;
+    rdfs:label "Číselník krajů - třída"@cs,
+        "Code list for regions - class"@en ;
+    rdfs:subClassOf ns1:Concept ;
+    ns1:prefLabel "Číselník krajů - třída"@cs,
+        "Code list for regions - class"@en .
+
+<https://filipjezek.github.io/resources/observation-00000> a ns3:Observation ;
+    ns3:dataSet <https://filipjezek.github.io/resources/dataCubeInstance> ;
+    ns2:county <https://filipjezek.github.io/resources/county-CZ0427> ;
+    ns2:meanPopulation 116930 ;
+    ns2:region <https://filipjezek.github.io/resources/region-CZ042> .
+
+<https://filipjezek.github.io/resources/observation-00001> a ns3:Observation ;
+    ns3:dataSet <https://filipjezek.github.io/resources/dataCubeInstance> ;
+    ns2:county <https://filipjezek.github.io/resources/county-CZ0524> ;
+    ns2:meanPopulation 78479 ;
+    ns2:region <https://filipjezek.github.io/resources/region-CZ052> .
+
+<https://filipjezek.github.io/resources/observation-00002> a ns3:Observation ;
+    ns3:dataSet <https://filipjezek.github.io/resources/dataCubeInstance> ;
+    ns2:county <https://filipjezek.github.io/resources/county-CZ0514> ;
+    ns2:meanPopulation 71593 ;
+    ns2:region <https://filipjezek.github.io/resources/region-CZ051> .
+
+<https://filipjezek.github.io/resources/observation-00003> a ns3:Observation ;
+    ns3:dataSet <https://filipjezek.github.io/resources/dataCubeInstance> ;
+    ns2:county <https://filipjezek.github.io/resources/county-CZ0522> ;
+    ns2:meanPopulation 78763 ;
+    ns2:region <https://filipjezek.github.io/resources/region-CZ052> .
+
+<https://filipjezek.github.io/resources/observation-00004> a ns3:Observation ;
+    ns3:dataSet <https://filipjezek.github.io/resources/dataCubeInstance> ;
+    ns2:county <https://filipjezek.github.io/resources/county-CZ0531> ;
+    ns2:meanPopulation 103657 ;
+    ns2:region <https://filipjezek.github.io/resources/region-CZ053> .
+
+<https://filipjezek.github.io/resources/observation-00005> a ns3:Observation ;
+    ns3:dataSet <https://filipjezek.github.io/resources/dataCubeInstance> ;
+    ns2:county <https://filipjezek.github.io/resources/county-CZ0642> ;
+    ns2:meanPopulation 378424 ;
+    ns2:region <https://filipjezek.github.io/resources/region-CZ064> .
+
+<https://filipjezek.github.io/resources/observation-00006> a ns3:Observation ;
+    ns3:dataSet <https://filipjezek.github.io/resources/dataCubeInstance> ;
+    ns2:county <https://filipjezek.github.io/resources/county-CZ0644> ;
+    ns2:meanPopulation 114758 ;
+    ns2:region <https://filipjezek.github.io/resources/region-CZ064> .
+
+<https://filipjezek.github.io/resources/observation-00007> a ns3:Observation ;
+    ns3:dataSet <https://filipjezek.github.io/resources/dataCubeInstance> ;
+    ns2:county <https://filipjezek.github.io/resources/county-CZ0208> ;
+    ns2:meanPopulation 100584 ;
+    ns2:region <https://filipjezek.github.io/resources/region-CZ020> .
+
+<https://filipjezek.github.io/resources/observation-00008> a ns3:Observation ;
+    ns3:dataSet <https://filipjezek.github.io/resources/dataCubeInstance> ;
+    ns2:county <https://filipjezek.github.io/resources/county-CZ0646> ;
+    ns2:meanPopulation 91984 ;
+    ns2:region <https://filipjezek.github.io/resources/region-CZ064> .
+
+<https://filipjezek.github.io/resources/observation-00009> a ns3:Observation ;
+    ns3:dataSet <https://filipjezek.github.io/resources/dataCubeInstance> ;
+    ns2:county <https://filipjezek.github.io/resources/county-CZ0713> ;
+    ns2:meanPopulation 107697 ;
+    ns2:region <https://filipjezek.github.io/resources/region-CZ071> .
+
+<https://filipjezek.github.io/resources/observation-00010> a ns3:Observation ;
+    ns3:dataSet <https://filipjezek.github.io/resources/dataCubeInstance> ;
+    ns2:county <https://filipjezek.github.io/resources/county-CZ0714> ;
+    ns2:meanPopulation 126826 ;
+    ns2:region <https://filipjezek.github.io/resources/region-CZ071> .
+
+<https://filipjezek.github.io/resources/observation-00011> a ns3:Observation ;
+    ns3:dataSet <https://filipjezek.github.io/resources/dataCubeInstance> ;
+    ns2:county <https://filipjezek.github.io/resources/county-CZ0322> ;
+    ns2:meanPopulation 84661 ;
+    ns2:region <https://filipjezek.github.io/resources/region-CZ032> .
+
+<https://filipjezek.github.io/resources/observation-00012> a ns3:Observation ;
+    ns3:dataSet <https://filipjezek.github.io/resources/dataCubeInstance> ;
+    ns2:county <https://filipjezek.github.io/resources/county-CZ0326> ;
+    ns2:meanPopulation 48587 ;
+    ns2:region <https://filipjezek.github.io/resources/region-CZ032> .
+
+<https://filipjezek.github.io/resources/observation-00013> a ns3:Observation ;
+    ns3:dataSet <https://filipjezek.github.io/resources/dataCubeInstance> ;
+    ns2:county <https://filipjezek.github.io/resources/county-CZ0411> ;
+    ns2:meanPopulation 88030 ;
+    ns2:region <https://filipjezek.github.io/resources/region-CZ041> .
+
+<https://filipjezek.github.io/resources/observation-00014> a ns3:Observation ;
+    ns3:dataSet <https://filipjezek.github.io/resources/dataCubeInstance> ;
+    ns2:county <https://filipjezek.github.io/resources/county-CZ0723> ;
+    ns2:meanPopulation 140392 ;
+    ns2:region <https://filipjezek.github.io/resources/region-CZ072> .
+
+<https://filipjezek.github.io/resources/observation-00015> a ns3:Observation ;
+    ns3:dataSet <https://filipjezek.github.io/resources/dataCubeInstance> ;
+    ns2:county <https://filipjezek.github.io/resources/county-CZ0724> ;
+    ns2:meanPopulation 188947 ;
+    ns2:region <https://filipjezek.github.io/resources/region-CZ072> .
+
+<https://filipjezek.github.io/resources/observation-00016> a ns3:Observation ;
+    ns3:dataSet <https://filipjezek.github.io/resources/dataCubeInstance> ;
+    ns2:county <https://filipjezek.github.io/resources/county-CZ0206> ;
+    ns2:meanPopulation 108889 ;
+    ns2:region <https://filipjezek.github.io/resources/region-CZ020> .
+
+<https://filipjezek.github.io/resources/observation-00017> a ns3:Observation ;
+    ns3:dataSet <https://filipjezek.github.io/resources/dataCubeInstance> ;
+    ns2:county <https://filipjezek.github.io/resources/county-CZ0209> ;
+    ns2:meanPopulation 186558 ;
+    ns2:region <https://filipjezek.github.io/resources/region-CZ020> .
+
+<https://filipjezek.github.io/resources/observation-00018> a ns3:Observation ;
+    ns3:dataSet <https://filipjezek.github.io/resources/dataCubeInstance> ;
+    ns2:county <https://filipjezek.github.io/resources/county-CZ020C> ;
+    ns2:meanPopulation 54767 ;
+    ns2:region <https://filipjezek.github.io/resources/region-CZ020> .
+
+<https://filipjezek.github.io/resources/observation-00019> a ns3:Observation ;
+    ns3:dataSet <https://filipjezek.github.io/resources/dataCubeInstance> ;
+    ns2:county <https://filipjezek.github.io/resources/county-CZ0314> ;
+    ns2:meanPopulation 70582 ;
+    ns2:region <https://filipjezek.github.io/resources/region-CZ031> .
+
+<https://filipjezek.github.io/resources/observation-00020> a ns3:Observation ;
+    ns3:dataSet <https://filipjezek.github.io/resources/dataCubeInstance> ;
+    ns2:county <https://filipjezek.github.io/resources/county-CZ0323> ;
+    ns2:meanPopulation 187985 ;
+    ns2:region <https://filipjezek.github.io/resources/region-CZ032> .
+
+<https://filipjezek.github.io/resources/observation-00021> a ns3:Observation ;
+    ns3:dataSet <https://filipjezek.github.io/resources/dataCubeInstance> ;
+    ns2:county <https://filipjezek.github.io/resources/county-CZ0421> ;
+    ns2:meanPopulation 126492 ;
+    ns2:region <https://filipjezek.github.io/resources/region-CZ042> .
+
+<https://filipjezek.github.io/resources/observation-00022> a ns3:Observation ;
+    ns3:dataSet <https://filipjezek.github.io/resources/dataCubeInstance> ;
+    ns2:county <https://filipjezek.github.io/resources/county-CZ0521> ;
+    ns2:meanPopulation 162193 ;
+    ns2:region <https://filipjezek.github.io/resources/region-CZ052> .
+
+<https://filipjezek.github.io/resources/observation-00023> a ns3:Observation ;
+    ns3:dataSet <https://filipjezek.github.io/resources/dataCubeInstance> ;
+    ns2:county <https://filipjezek.github.io/resources/county-CZ0802> ;
+    ns2:meanPopulation 212422 ;
+    ns2:region <https://filipjezek.github.io/resources/region-CZ080> .
+
+<https://filipjezek.github.io/resources/observation-00024> a ns3:Observation ;
+    ns3:dataSet <https://filipjezek.github.io/resources/dataCubeInstance> ;
+    ns2:county <https://filipjezek.github.io/resources/county-CZ0312> ;
+    ns2:meanPopulation 60033 ;
+    ns2:region <https://filipjezek.github.io/resources/region-CZ031> .
+
+<https://filipjezek.github.io/resources/observation-00025> a ns3:Observation ;
+    ns3:dataSet <https://filipjezek.github.io/resources/dataCubeInstance> ;
+    ns2:county <https://filipjezek.github.io/resources/county-CZ0325> ;
+    ns2:meanPopulation 80228 ;
+    ns2:region <https://filipjezek.github.io/resources/region-CZ032> .
+
+<https://filipjezek.github.io/resources/observation-00026> a ns3:Observation ;
+    ns3:dataSet <https://filipjezek.github.io/resources/dataCubeInstance> ;
+    ns2:county <https://filipjezek.github.io/resources/county-CZ0202> ;
+    ns2:meanPopulation 95823 ;
+    ns2:region <https://filipjezek.github.io/resources/region-CZ020> .
+
+<https://filipjezek.github.io/resources/observation-00027> a ns3:Observation ;
+    ns3:dataSet <https://filipjezek.github.io/resources/dataCubeInstance> ;
+    ns2:county <https://filipjezek.github.io/resources/county-CZ0207> ;
+    ns2:meanPopulation 127221 ;
+    ns2:region <https://filipjezek.github.io/resources/region-CZ020> .
+
+<https://filipjezek.github.io/resources/observation-00028> a ns3:Observation ;
+    ns3:dataSet <https://filipjezek.github.io/resources/dataCubeInstance> ;
+    ns2:county <https://filipjezek.github.io/resources/county-CZ0711> ;
+    ns2:meanPopulation 36884 ;
+    ns2:region <https://filipjezek.github.io/resources/region-CZ071> .
+
+<https://filipjezek.github.io/resources/observation-00029> a ns3:Observation ;
+    ns3:dataSet <https://filipjezek.github.io/resources/dataCubeInstance> ;
+    ns2:county <https://filipjezek.github.io/resources/county-CZ0205> ;
+    ns2:meanPopulation 75402 ;
+    ns2:region <https://filipjezek.github.io/resources/region-CZ020> .
+
+<https://filipjezek.github.io/resources/observation-00030> a ns3:Observation ;
+    ns3:dataSet <https://filipjezek.github.io/resources/dataCubeInstance> ;
+    ns2:county <https://filipjezek.github.io/resources/county-CZ0201> ;
+    ns2:meanPopulation 99008 ;
+    ns2:region <https://filipjezek.github.io/resources/region-CZ020> .
+
+<https://filipjezek.github.io/resources/observation-00031> a ns3:Observation ;
+    ns3:dataSet <https://filipjezek.github.io/resources/dataCubeInstance> ;
+    ns2:county <https://filipjezek.github.io/resources/county-CZ020A> ;
+    ns2:meanPopulation 149990 ;
+    ns2:region <https://filipjezek.github.io/resources/region-CZ020> .
+
+<https://filipjezek.github.io/resources/observation-00032> a ns3:Observation ;
+    ns3:dataSet <https://filipjezek.github.io/resources/dataCubeInstance> ;
+    ns2:county <https://filipjezek.github.io/resources/county-CZ020B> ;
+    ns2:meanPopulation 114060 ;
+    ns2:region <https://filipjezek.github.io/resources/region-CZ020> .
+
+<https://filipjezek.github.io/resources/observation-00033> a ns3:Observation ;
+    ns3:dataSet <https://filipjezek.github.io/resources/dataCubeInstance> ;
+    ns2:county <https://filipjezek.github.io/resources/county-CZ0311> ;
+    ns2:meanPopulation 194994 ;
+    ns2:region <https://filipjezek.github.io/resources/region-CZ031> .
+
+<https://filipjezek.github.io/resources/observation-00034> a ns3:Observation ;
+    ns3:dataSet <https://filipjezek.github.io/resources/dataCubeInstance> ;
+    ns2:county <https://filipjezek.github.io/resources/county-CZ0315> ;
+    ns2:meanPopulation 50225 ;
+    ns2:region <https://filipjezek.github.io/resources/region-CZ031> .
+
+<https://filipjezek.github.io/resources/observation-00035> a ns3:Observation ;
+    ns3:dataSet <https://filipjezek.github.io/resources/dataCubeInstance> ;
+    ns2:county <https://filipjezek.github.io/resources/county-CZ0801> ;
+    ns2:meanPopulation 89906 ;
+    ns2:region <https://filipjezek.github.io/resources/region-CZ080> .
+
+<https://filipjezek.github.io/resources/observation-00036> a ns3:Observation ;
+    ns3:dataSet <https://filipjezek.github.io/resources/dataCubeInstance> ;
+    ns2:county <https://filipjezek.github.io/resources/county-CZ0804> ;
+    ns2:meanPopulation 149907 ;
+    ns2:region <https://filipjezek.github.io/resources/region-CZ080> .
+
+<https://filipjezek.github.io/resources/observation-00037> a ns3:Observation ;
+    ns3:dataSet <https://filipjezek.github.io/resources/dataCubeInstance> ;
+    ns2:county <https://filipjezek.github.io/resources/county-CZ0806> ;
+    ns2:meanPopulation 312908 ;
+    ns2:region <https://filipjezek.github.io/resources/region-CZ080> .
+
+<https://filipjezek.github.io/resources/observation-00038> a ns3:Observation ;
+    ns3:dataSet <https://filipjezek.github.io/resources/dataCubeInstance> ;
+    ns2:county <https://filipjezek.github.io/resources/county-CZ0313> ;
+    ns2:meanPopulation 89325 ;
+    ns2:region <https://filipjezek.github.io/resources/region-CZ031> .
+
+<https://filipjezek.github.io/resources/observation-00039> a ns3:Observation ;
+    ns3:dataSet <https://filipjezek.github.io/resources/dataCubeInstance> ;
+    ns2:county <https://filipjezek.github.io/resources/county-CZ0321> ;
+    ns2:meanPopulation 54313 ;
+    ns2:region <https://filipjezek.github.io/resources/region-CZ032> .
+
+<https://filipjezek.github.io/resources/observation-00040> a ns3:Observation ;
+    ns3:dataSet <https://filipjezek.github.io/resources/dataCubeInstance> ;
+    ns2:county <https://filipjezek.github.io/resources/county-CZ0412> ;
+    ns2:meanPopulation 110195 ;
+    ns2:region <https://filipjezek.github.io/resources/region-CZ041> .
+
+<https://filipjezek.github.io/resources/observation-00041> a ns3:Observation ;
+    ns3:dataSet <https://filipjezek.github.io/resources/dataCubeInstance> ;
+    ns2:county <https://filipjezek.github.io/resources/county-CZ0324> ;
+    ns2:meanPopulation 68623 ;
+    ns2:region <https://filipjezek.github.io/resources/region-CZ032> .
+
+<https://filipjezek.github.io/resources/observation-00042> a ns3:Observation ;
+    ns3:dataSet <https://filipjezek.github.io/resources/dataCubeInstance> ;
+    ns2:county <https://filipjezek.github.io/resources/county-CZ0423> ;
+    ns2:meanPopulation 117473 ;
+    ns2:region <https://filipjezek.github.io/resources/region-CZ042> .
+
+<https://filipjezek.github.io/resources/observation-00043> a ns3:Observation ;
+    ns3:dataSet <https://filipjezek.github.io/resources/dataCubeInstance> ;
+    ns2:county <https://filipjezek.github.io/resources/county-CZ0426> ;
+    ns2:meanPopulation 124401 ;
+    ns2:region <https://filipjezek.github.io/resources/region-CZ042> .
+
+<https://filipjezek.github.io/resources/observation-00044> a ns3:Observation ;
+    ns3:dataSet <https://filipjezek.github.io/resources/dataCubeInstance> ;
+    ns2:county <https://filipjezek.github.io/resources/county-CZ0534> ;
+    ns2:meanPopulation 135977 ;
+    ns2:region <https://filipjezek.github.io/resources/region-CZ053> .
+
+<https://filipjezek.github.io/resources/observation-00045> a ns3:Observation ;
+    ns3:dataSet <https://filipjezek.github.io/resources/dataCubeInstance> ;
+    ns2:county <https://filipjezek.github.io/resources/county-CZ0511> ;
+    ns2:meanPopulation 101997 ;
+    ns2:region <https://filipjezek.github.io/resources/region-CZ051> .
+
+<https://filipjezek.github.io/resources/observation-00046> a ns3:Observation ;
+    ns3:dataSet <https://filipjezek.github.io/resources/dataCubeInstance> ;
+    ns2:county <https://filipjezek.github.io/resources/county-CZ0513> ;
+    ns2:meanPopulation 173337 ;
+    ns2:region <https://filipjezek.github.io/resources/region-CZ051> .
+
+<https://filipjezek.github.io/resources/observation-00047> a ns3:Observation ;
+    ns3:dataSet <https://filipjezek.github.io/resources/dataCubeInstance> ;
+    ns2:county <https://filipjezek.github.io/resources/county-CZ0523> ;
+    ns2:meanPopulation 108092 ;
+    ns2:region <https://filipjezek.github.io/resources/region-CZ052> .
+
+<https://filipjezek.github.io/resources/observation-00048> a ns3:Observation ;
+    ns3:dataSet <https://filipjezek.github.io/resources/dataCubeInstance> ;
+    ns2:county <https://filipjezek.github.io/resources/county-CZ0525> ;
+    ns2:meanPopulation 115365 ;
+    ns2:region <https://filipjezek.github.io/resources/region-CZ052> .
+
+<https://filipjezek.github.io/resources/observation-00049> a ns3:Observation ;
+    ns3:dataSet <https://filipjezek.github.io/resources/dataCubeInstance> ;
+    ns2:county <https://filipjezek.github.io/resources/county-CZ0647> ;
+    ns2:meanPopulation 113389 ;
+    ns2:region <https://filipjezek.github.io/resources/region-CZ064> .
+
+<https://filipjezek.github.io/resources/observation-00050> a ns3:Observation ;
+    ns3:dataSet <https://filipjezek.github.io/resources/dataCubeInstance> ;
+    ns2:county <https://filipjezek.github.io/resources/county-CZ0631> ;
+    ns2:meanPopulation 93521 ;
+    ns2:region <https://filipjezek.github.io/resources/region-CZ063> .
+
+<https://filipjezek.github.io/resources/observation-00051> a ns3:Observation ;
+    ns3:dataSet <https://filipjezek.github.io/resources/dataCubeInstance> ;
+    ns2:county <https://filipjezek.github.io/resources/county-CZ0532> ;
+    ns2:meanPopulation 171461 ;
+    ns2:region <https://filipjezek.github.io/resources/region-CZ053> .
+
+<https://filipjezek.github.io/resources/observation-00052> a ns3:Observation ;
+    ns3:dataSet <https://filipjezek.github.io/resources/dataCubeInstance> ;
+    ns2:county <https://filipjezek.github.io/resources/county-CZ0634> ;
+    ns2:meanPopulation 109373 ;
+    ns2:region <https://filipjezek.github.io/resources/region-CZ063> .
+
+<https://filipjezek.github.io/resources/observation-00053> a ns3:Observation ;
+    ns3:dataSet <https://filipjezek.github.io/resources/dataCubeInstance> ;
+    ns2:county <https://filipjezek.github.io/resources/county-CZ0715> ;
+    ns2:meanPopulation 118618 ;
+    ns2:region <https://filipjezek.github.io/resources/region-CZ071> .
+
+<https://filipjezek.github.io/resources/observation-00054> a ns3:Observation ;
+    ns3:dataSet <https://filipjezek.github.io/resources/dataCubeInstance> ;
+    ns2:county <https://filipjezek.github.io/resources/county-CZ0204> ;
+    ns2:meanPopulation 103345 ;
+    ns2:region <https://filipjezek.github.io/resources/region-CZ020> .
+
+<https://filipjezek.github.io/resources/observation-00055> a ns3:Observation ;
+    ns3:dataSet <https://filipjezek.github.io/resources/dataCubeInstance> ;
+    ns2:county <https://filipjezek.github.io/resources/county-CZ0633> ;
+    ns2:meanPopulation 71457 ;
+    ns2:region <https://filipjezek.github.io/resources/region-CZ063> .
+
+<https://filipjezek.github.io/resources/observation-00056> a ns3:Observation ;
+    ns3:dataSet <https://filipjezek.github.io/resources/dataCubeInstance> ;
+    ns2:county <https://filipjezek.github.io/resources/county-CZ0635> ;
+    ns2:meanPopulation 117181 ;
+    ns2:region <https://filipjezek.github.io/resources/region-CZ063> .
+
+<https://filipjezek.github.io/resources/observation-00057> a ns3:Observation ;
+    ns3:dataSet <https://filipjezek.github.io/resources/dataCubeInstance> ;
+    ns2:county <https://filipjezek.github.io/resources/county-CZ0641> ;
+    ns2:meanPopulation 107795 ;
+    ns2:region <https://filipjezek.github.io/resources/region-CZ064> .
+
+<https://filipjezek.github.io/resources/observation-00058> a ns3:Observation ;
+    ns3:dataSet <https://filipjezek.github.io/resources/dataCubeInstance> ;
+    ns2:county <https://filipjezek.github.io/resources/county-CZ0645> ;
+    ns2:meanPopulation 151344 ;
+    ns2:region <https://filipjezek.github.io/resources/region-CZ064> .
+
+<https://filipjezek.github.io/resources/observation-00059> a ns3:Observation ;
+    ns3:dataSet <https://filipjezek.github.io/resources/dataCubeInstance> ;
+    ns2:county <https://filipjezek.github.io/resources/county-CZ0533> ;
+    ns2:meanPopulation 102799 ;
+    ns2:region <https://filipjezek.github.io/resources/region-CZ053> .
+
+<https://filipjezek.github.io/resources/observation-00060> a ns3:Observation ;
+    ns3:dataSet <https://filipjezek.github.io/resources/dataCubeInstance> ;
+    ns2:county <https://filipjezek.github.io/resources/county-CZ0632> ;
+    ns2:meanPopulation 112206 ;
+    ns2:region <https://filipjezek.github.io/resources/region-CZ063> .
+
+<https://filipjezek.github.io/resources/observation-00061> a ns3:Observation ;
+    ns3:dataSet <https://filipjezek.github.io/resources/dataCubeInstance> ;
+    ns2:county <https://filipjezek.github.io/resources/county-CZ0643> ;
+    ns2:meanPopulation 224794 ;
+    ns2:region <https://filipjezek.github.io/resources/region-CZ064> .
+
+<https://filipjezek.github.io/resources/observation-00062> a ns3:Observation ;
+    ns3:dataSet <https://filipjezek.github.io/resources/dataCubeInstance> ;
+    ns2:county <https://filipjezek.github.io/resources/county-CZ0722> ;
+    ns2:meanPopulation 139922 ;
+    ns2:region <https://filipjezek.github.io/resources/region-CZ072> .
+
+<https://filipjezek.github.io/resources/observation-00063> a ns3:Observation ;
+    ns3:dataSet <https://filipjezek.github.io/resources/dataCubeInstance> ;
+    ns2:county <https://filipjezek.github.io/resources/county-CZ0803> ;
+    ns2:meanPopulation 241184 ;
+    ns2:region <https://filipjezek.github.io/resources/region-CZ080> .
+
+<https://filipjezek.github.io/resources/observation-00064> a ns3:Observation ;
+    ns3:dataSet <https://filipjezek.github.io/resources/dataCubeInstance> ;
+    ns2:county <https://filipjezek.github.io/resources/county-CZ0316> ;
+    ns2:meanPopulation 69794 ;
+    ns2:region <https://filipjezek.github.io/resources/region-CZ031> .
+
+<https://filipjezek.github.io/resources/observation-00065> a ns3:Observation ;
+    ns3:dataSet <https://filipjezek.github.io/resources/dataCubeInstance> ;
+    ns2:county <https://filipjezek.github.io/resources/county-CZ0712> ;
+    ns2:meanPopulation 233661 ;
+    ns2:region <https://filipjezek.github.io/resources/region-CZ071> .
+
+<https://filipjezek.github.io/resources/observation-00066> a ns3:Observation ;
+    ns3:dataSet <https://filipjezek.github.io/resources/dataCubeInstance> ;
+    ns2:county <https://filipjezek.github.io/resources/county-CZ0721> ;
+    ns2:meanPopulation 103753 ;
+    ns2:region <https://filipjezek.github.io/resources/region-CZ072> .
+
+<https://filipjezek.github.io/resources/observation-00067> a ns3:Observation ;
+    ns3:dataSet <https://filipjezek.github.io/resources/dataCubeInstance> ;
+    ns2:county <https://filipjezek.github.io/resources/county-CZ0805> ;
+    ns2:meanPopulation 173853 ;
+    ns2:region <https://filipjezek.github.io/resources/region-CZ080> .
+
+<https://filipjezek.github.io/resources/observation-00068> a ns3:Observation ;
+    ns3:dataSet <https://filipjezek.github.io/resources/dataCubeInstance> ;
+    ns2:county <https://filipjezek.github.io/resources/county-CZ0203> ;
+    ns2:meanPopulation 164359 ;
+    ns2:region <https://filipjezek.github.io/resources/region-CZ020> .
+
+<https://filipjezek.github.io/resources/observation-00069> a ns3:Observation ;
+    ns3:dataSet <https://filipjezek.github.io/resources/dataCubeInstance> ;
+    ns2:county <https://filipjezek.github.io/resources/county-CZ0413> ;
+    ns2:meanPopulation 85452 ;
+    ns2:region <https://filipjezek.github.io/resources/region-CZ041> .
+
+<https://filipjezek.github.io/resources/observation-00070> a ns3:Observation ;
+    ns3:dataSet <https://filipjezek.github.io/resources/dataCubeInstance> ;
+    ns2:county <https://filipjezek.github.io/resources/county-CZ0422> ;
+    ns2:meanPopulation 121643 ;
+    ns2:region <https://filipjezek.github.io/resources/region-CZ042> .
+
+<https://filipjezek.github.io/resources/observation-00071> a ns3:Observation ;
+    ns3:dataSet <https://filipjezek.github.io/resources/dataCubeInstance> ;
+    ns2:county <https://filipjezek.github.io/resources/county-CZ0425> ;
+    ns2:meanPopulation 107090 ;
+    ns2:region <https://filipjezek.github.io/resources/region-CZ042> .
+
+<https://filipjezek.github.io/resources/observation-00072> a ns3:Observation ;
+    ns3:dataSet <https://filipjezek.github.io/resources/dataCubeInstance> ;
+    ns2:county <https://filipjezek.github.io/resources/county-CZ0317> ;
+    ns2:meanPopulation 101333 ;
+    ns2:region <https://filipjezek.github.io/resources/region-CZ031> .
+
+<https://filipjezek.github.io/resources/observation-00073> a ns3:Observation ;
+    ns3:dataSet <https://filipjezek.github.io/resources/dataCubeInstance> ;
+    ns2:county <https://filipjezek.github.io/resources/county-CZ0512> ;
+    ns2:meanPopulation 90204 ;
+    ns2:region <https://filipjezek.github.io/resources/region-CZ051> .
+
+<https://filipjezek.github.io/resources/observation-00074> a ns3:Observation ;
+    ns3:dataSet <https://filipjezek.github.io/resources/dataCubeInstance> ;
+    ns2:county <https://filipjezek.github.io/resources/county-CZ0327> ;
+    ns2:meanPopulation 52793 ;
+    ns2:region <https://filipjezek.github.io/resources/region-CZ032> .
+
+<https://filipjezek.github.io/resources/observation-00075> a ns3:Observation ;
+    ns3:dataSet <https://filipjezek.github.io/resources/dataCubeInstance> ;
+    ns2:county <https://filipjezek.github.io/resources/county-CZ0424> ;
+    ns2:meanPopulation 85466 ;
+    ns2:region <https://filipjezek.github.io/resources/region-CZ042> .
+
+ns2:county a ns3:DimensionProperty,
+        rdfs:Property ;
+    rdfs:label "Okres"@cs,
+        "County"@en ;
+    ns3:codeList <https://filipjezek.github.io/resources/county> ;
+    ns3:concept <http://purl.org/linked-data/sdmx/2009/concept#refArea> ;
+    rdfs:range <https://filipjezek.github.io/resources/County> ;
+    rdfs:subPropertyOf <http://purl.org/linked-data/sdmx/2009/dimension#refArea> .
+
+ns2:meanPopulation a ns3:MeasureProperty,
+        rdfs:Property ;
+    rdfs:label "Střední stav obyvatel"@cs,
+        "Mean population"@en ;
+    rdfs:range xsd:integer ;
+    rdfs:subPropertyOf <http://purl.org/linked-data/sdmx/2009/measure#obsValue> .
+
+ns2:region a ns3:DimensionProperty,
+        rdfs:Property ;
+    rdfs:label "Kraj"@cs,
+        "Region"@en ;
+    ns3:codeList <https://filipjezek.github.io/resources/region> ;
+    ns3:concept <http://purl.org/linked-data/sdmx/2009/concept#refArea> ;
+    rdfs:range <https://filipjezek.github.io/resources/Region> ;
+    rdfs:subPropertyOf <http://purl.org/linked-data/sdmx/2009/dimension#refArea> .
+
+ns2:structure a ns3:DataStructureDefinition ;
+    ns3:component [ ns3:dimension ns2:county ],
+        [ ns3:measure ns2:meanPopulation ],
+        [ ns3:dimension ns2:region ] .
+
+<https://filipjezek.github.io/resources/county-CZ0201> a ns1:Concept,
+        <https://filipjezek.github.io/resources/County> ;
+    rdfs:label "Benešov"@cs ;
+    ns1:inScheme <https://filipjezek.github.io/resources/county> ;
+    ns1:notation "CZ0201" ;
+    ns1:prefLabel "Benešov"@cs ;
+    ns1:topConceptOf <https://filipjezek.github.io/resources/county> .
+
+<https://filipjezek.github.io/resources/county-CZ0202> a ns1:Concept,
+        <https://filipjezek.github.io/resources/County> ;
+    rdfs:label "Beroun"@cs ;
+    ns1:inScheme <https://filipjezek.github.io/resources/county> ;
+    ns1:notation "CZ0202" ;
+    ns1:prefLabel "Beroun"@cs ;
+    ns1:topConceptOf <https://filipjezek.github.io/resources/county> .
+
+<https://filipjezek.github.io/resources/county-CZ0203> a ns1:Concept,
+        <https://filipjezek.github.io/resources/County> ;
+    rdfs:label "Kladno"@cs ;
+    ns1:inScheme <https://filipjezek.github.io/resources/county> ;
+    ns1:notation "CZ0203" ;
+    ns1:prefLabel "Kladno"@cs ;
+    ns1:topConceptOf <https://filipjezek.github.io/resources/county> .
+
+<https://filipjezek.github.io/resources/county-CZ0204> a ns1:Concept,
+        <https://filipjezek.github.io/resources/County> ;
+    rdfs:label "Kolín"@cs ;
+    ns1:inScheme <https://filipjezek.github.io/resources/county> ;
+    ns1:notation "CZ0204" ;
+    ns1:prefLabel "Kolín"@cs ;
+    ns1:topConceptOf <https://filipjezek.github.io/resources/county> .
+
+<https://filipjezek.github.io/resources/county-CZ0205> a ns1:Concept,
+        <https://filipjezek.github.io/resources/County> ;
+    rdfs:label "Kutná Hora"@cs ;
+    ns1:inScheme <https://filipjezek.github.io/resources/county> ;
+    ns1:notation "CZ0205" ;
+    ns1:prefLabel "Kutná Hora"@cs ;
+    ns1:topConceptOf <https://filipjezek.github.io/resources/county> .
+
+<https://filipjezek.github.io/resources/county-CZ0206> a ns1:Concept,
+        <https://filipjezek.github.io/resources/County> ;
+    rdfs:label "Mělník"@cs ;
+    ns1:inScheme <https://filipjezek.github.io/resources/county> ;
+    ns1:notation "CZ0206" ;
+    ns1:prefLabel "Mělník"@cs ;
+    ns1:topConceptOf <https://filipjezek.github.io/resources/county> .
+
+<https://filipjezek.github.io/resources/county-CZ0207> a ns1:Concept,
+        <https://filipjezek.github.io/resources/County> ;
+    rdfs:label "Mladá Boleslav"@cs ;
+    ns1:inScheme <https://filipjezek.github.io/resources/county> ;
+    ns1:notation "CZ0207" ;
+    ns1:prefLabel "Mladá Boleslav"@cs ;
+    ns1:topConceptOf <https://filipjezek.github.io/resources/county> .
+
+<https://filipjezek.github.io/resources/county-CZ0208> a ns1:Concept,
+        <https://filipjezek.github.io/resources/County> ;
+    rdfs:label "Nymburk"@cs ;
+    ns1:inScheme <https://filipjezek.github.io/resources/county> ;
+    ns1:notation "CZ0208" ;
+    ns1:prefLabel "Nymburk"@cs ;
+    ns1:topConceptOf <https://filipjezek.github.io/resources/county> .
+
+<https://filipjezek.github.io/resources/county-CZ0209> a ns1:Concept,
+        <https://filipjezek.github.io/resources/County> ;
+    rdfs:label "Praha-východ"@cs ;
+    ns1:inScheme <https://filipjezek.github.io/resources/county> ;
+    ns1:notation "CZ0209" ;
+    ns1:prefLabel "Praha-východ"@cs ;
+    ns1:topConceptOf <https://filipjezek.github.io/resources/county> .
+
+<https://filipjezek.github.io/resources/county-CZ020A> a ns1:Concept,
+        <https://filipjezek.github.io/resources/County> ;
+    rdfs:label "Praha-západ"@cs ;
+    ns1:inScheme <https://filipjezek.github.io/resources/county> ;
+    ns1:notation "CZ020A" ;
+    ns1:prefLabel "Praha-západ"@cs ;
+    ns1:topConceptOf <https://filipjezek.github.io/resources/county> .
+
+<https://filipjezek.github.io/resources/county-CZ020B> a ns1:Concept,
+        <https://filipjezek.github.io/resources/County> ;
+    rdfs:label "Příbram"@cs ;
+    ns1:inScheme <https://filipjezek.github.io/resources/county> ;
+    ns1:notation "CZ020B" ;
+    ns1:prefLabel "Příbram"@cs ;
+    ns1:topConceptOf <https://filipjezek.github.io/resources/county> .
+
+<https://filipjezek.github.io/resources/county-CZ020C> a ns1:Concept,
+        <https://filipjezek.github.io/resources/County> ;
+    rdfs:label "Rakovník"@cs ;
+    ns1:inScheme <https://filipjezek.github.io/resources/county> ;
+    ns1:notation "CZ020C" ;
+    ns1:prefLabel "Rakovník"@cs ;
+    ns1:topConceptOf <https://filipjezek.github.io/resources/county> .
+
+<https://filipjezek.github.io/resources/county-CZ0311> a ns1:Concept,
+        <https://filipjezek.github.io/resources/County> ;
+    rdfs:label "České Budějovice"@cs ;
+    ns1:inScheme <https://filipjezek.github.io/resources/county> ;
+    ns1:notation "CZ0311" ;
+    ns1:prefLabel "České Budějovice"@cs ;
+    ns1:topConceptOf <https://filipjezek.github.io/resources/county> .
+
+<https://filipjezek.github.io/resources/county-CZ0312> a ns1:Concept,
+        <https://filipjezek.github.io/resources/County> ;
+    rdfs:label "Český Krumlov"@cs ;
+    ns1:inScheme <https://filipjezek.github.io/resources/county> ;
+    ns1:notation "CZ0312" ;
+    ns1:prefLabel "Český Krumlov"@cs ;
+    ns1:topConceptOf <https://filipjezek.github.io/resources/county> .
+
+<https://filipjezek.github.io/resources/county-CZ0313> a ns1:Concept,
+        <https://filipjezek.github.io/resources/County> ;
+    rdfs:label "Jindřichův Hradec"@cs ;
+    ns1:inScheme <https://filipjezek.github.io/resources/county> ;
+    ns1:notation "CZ0313" ;
+    ns1:prefLabel "Jindřichův Hradec"@cs ;
+    ns1:topConceptOf <https://filipjezek.github.io/resources/county> .
+
+<https://filipjezek.github.io/resources/county-CZ0314> a ns1:Concept,
+        <https://filipjezek.github.io/resources/County> ;
+    rdfs:label "Písek"@cs ;
+    ns1:inScheme <https://filipjezek.github.io/resources/county> ;
+    ns1:notation "CZ0314" ;
+    ns1:prefLabel "Písek"@cs ;
+    ns1:topConceptOf <https://filipjezek.github.io/resources/county> .
+
+<https://filipjezek.github.io/resources/county-CZ0315> a ns1:Concept,
+        <https://filipjezek.github.io/resources/County> ;
+    rdfs:label "Prachatice"@cs ;
+    ns1:inScheme <https://filipjezek.github.io/resources/county> ;
+    ns1:notation "CZ0315" ;
+    ns1:prefLabel "Prachatice"@cs ;
+    ns1:topConceptOf <https://filipjezek.github.io/resources/county> .
+
+<https://filipjezek.github.io/resources/county-CZ0316> a ns1:Concept,
+        <https://filipjezek.github.io/resources/County> ;
+    rdfs:label "Strakonice"@cs ;
+    ns1:inScheme <https://filipjezek.github.io/resources/county> ;
+    ns1:notation "CZ0316" ;
+    ns1:prefLabel "Strakonice"@cs ;
+    ns1:topConceptOf <https://filipjezek.github.io/resources/county> .
+
+<https://filipjezek.github.io/resources/county-CZ0317> a ns1:Concept,
+        <https://filipjezek.github.io/resources/County> ;
+    rdfs:label "Tábor"@cs ;
+    ns1:inScheme <https://filipjezek.github.io/resources/county> ;
+    ns1:notation "CZ0317" ;
+    ns1:prefLabel "Tábor"@cs ;
+    ns1:topConceptOf <https://filipjezek.github.io/resources/county> .
+
+<https://filipjezek.github.io/resources/county-CZ0321> a ns1:Concept,
+        <https://filipjezek.github.io/resources/County> ;
+    rdfs:label "Domažlice"@cs ;
+    ns1:inScheme <https://filipjezek.github.io/resources/county> ;
+    ns1:notation "CZ0321" ;
+    ns1:prefLabel "Domažlice"@cs ;
+    ns1:topConceptOf <https://filipjezek.github.io/resources/county> .
+
+<https://filipjezek.github.io/resources/county-CZ0322> a ns1:Concept,
+        <https://filipjezek.github.io/resources/County> ;
+    rdfs:label "Klatovy"@cs ;
+    ns1:inScheme <https://filipjezek.github.io/resources/county> ;
+    ns1:notation "CZ0322" ;
+    ns1:prefLabel "Klatovy"@cs ;
+    ns1:topConceptOf <https://filipjezek.github.io/resources/county> .
+
+<https://filipjezek.github.io/resources/county-CZ0323> a ns1:Concept,
+        <https://filipjezek.github.io/resources/County> ;
+    rdfs:label "Plzeň-město"@cs ;
+    ns1:inScheme <https://filipjezek.github.io/resources/county> ;
+    ns1:notation "CZ0323" ;
+    ns1:prefLabel "Plzeň-město"@cs ;
+    ns1:topConceptOf <https://filipjezek.github.io/resources/county> .
+
+<https://filipjezek.github.io/resources/county-CZ0324> a ns1:Concept,
+        <https://filipjezek.github.io/resources/County> ;
+    rdfs:label "Plzeň-jih"@cs ;
+    ns1:inScheme <https://filipjezek.github.io/resources/county> ;
+    ns1:notation "CZ0324" ;
+    ns1:prefLabel "Plzeň-jih"@cs ;
+    ns1:topConceptOf <https://filipjezek.github.io/resources/county> .
+
+<https://filipjezek.github.io/resources/county-CZ0325> a ns1:Concept,
+        <https://filipjezek.github.io/resources/County> ;
+    rdfs:label "Plzeň-sever"@cs ;
+    ns1:inScheme <https://filipjezek.github.io/resources/county> ;
+    ns1:notation "CZ0325" ;
+    ns1:prefLabel "Plzeň-sever"@cs ;
+    ns1:topConceptOf <https://filipjezek.github.io/resources/county> .
+
+<https://filipjezek.github.io/resources/county-CZ0326> a ns1:Concept,
+        <https://filipjezek.github.io/resources/County> ;
+    rdfs:label "Rokycany"@cs ;
+    ns1:inScheme <https://filipjezek.github.io/resources/county> ;
+    ns1:notation "CZ0326" ;
+    ns1:prefLabel "Rokycany"@cs ;
+    ns1:topConceptOf <https://filipjezek.github.io/resources/county> .
+
+<https://filipjezek.github.io/resources/county-CZ0327> a ns1:Concept,
+        <https://filipjezek.github.io/resources/County> ;
+    rdfs:label "Tachov"@cs ;
+    ns1:inScheme <https://filipjezek.github.io/resources/county> ;
+    ns1:notation "CZ0327" ;
+    ns1:prefLabel "Tachov"@cs ;
+    ns1:topConceptOf <https://filipjezek.github.io/resources/county> .
+
+<https://filipjezek.github.io/resources/county-CZ0411> a ns1:Concept,
+        <https://filipjezek.github.io/resources/County> ;
+    rdfs:label "Cheb"@cs ;
+    ns1:inScheme <https://filipjezek.github.io/resources/county> ;
+    ns1:notation "CZ0411" ;
+    ns1:prefLabel "Cheb"@cs ;
+    ns1:topConceptOf <https://filipjezek.github.io/resources/county> .
+
+<https://filipjezek.github.io/resources/county-CZ0412> a ns1:Concept,
+        <https://filipjezek.github.io/resources/County> ;
+    rdfs:label "Karlovy Vary"@cs ;
+    ns1:inScheme <https://filipjezek.github.io/resources/county> ;
+    ns1:notation "CZ0412" ;
+    ns1:prefLabel "Karlovy Vary"@cs ;
+    ns1:topConceptOf <https://filipjezek.github.io/resources/county> .
+
+<https://filipjezek.github.io/resources/county-CZ0413> a ns1:Concept,
+        <https://filipjezek.github.io/resources/County> ;
+    rdfs:label "Sokolov"@cs ;
+    ns1:inScheme <https://filipjezek.github.io/resources/county> ;
+    ns1:notation "CZ0413" ;
+    ns1:prefLabel "Sokolov"@cs ;
+    ns1:topConceptOf <https://filipjezek.github.io/resources/county> .
+
+<https://filipjezek.github.io/resources/county-CZ0421> a ns1:Concept,
+        <https://filipjezek.github.io/resources/County> ;
+    rdfs:label "Děčín"@cs ;
+    ns1:inScheme <https://filipjezek.github.io/resources/county> ;
+    ns1:notation "CZ0421" ;
+    ns1:prefLabel "Děčín"@cs ;
+    ns1:topConceptOf <https://filipjezek.github.io/resources/county> .
+
+<https://filipjezek.github.io/resources/county-CZ0422> a ns1:Concept,
+        <https://filipjezek.github.io/resources/County> ;
+    rdfs:label "Chomutov"@cs ;
+    ns1:inScheme <https://filipjezek.github.io/resources/county> ;
+    ns1:notation "CZ0422" ;
+    ns1:prefLabel "Chomutov"@cs ;
+    ns1:topConceptOf <https://filipjezek.github.io/resources/county> .
+
+<https://filipjezek.github.io/resources/county-CZ0423> a ns1:Concept,
+        <https://filipjezek.github.io/resources/County> ;
+    rdfs:label "Litoměřice"@cs ;
+    ns1:inScheme <https://filipjezek.github.io/resources/county> ;
+    ns1:notation "CZ0423" ;
+    ns1:prefLabel "Litoměřice"@cs ;
+    ns1:topConceptOf <https://filipjezek.github.io/resources/county> .
+
+<https://filipjezek.github.io/resources/county-CZ0424> a ns1:Concept,
+        <https://filipjezek.github.io/resources/County> ;
+    rdfs:label "Louny"@cs ;
+    ns1:inScheme <https://filipjezek.github.io/resources/county> ;
+    ns1:notation "CZ0424" ;
+    ns1:prefLabel "Louny"@cs ;
+    ns1:topConceptOf <https://filipjezek.github.io/resources/county> .
+
+<https://filipjezek.github.io/resources/county-CZ0425> a ns1:Concept,
+        <https://filipjezek.github.io/resources/County> ;
+    rdfs:label "Most"@cs ;
+    ns1:inScheme <https://filipjezek.github.io/resources/county> ;
+    ns1:notation "CZ0425" ;
+    ns1:prefLabel "Most"@cs ;
+    ns1:topConceptOf <https://filipjezek.github.io/resources/county> .
+
+<https://filipjezek.github.io/resources/county-CZ0426> a ns1:Concept,
+        <https://filipjezek.github.io/resources/County> ;
+    rdfs:label "Teplice"@cs ;
+    ns1:inScheme <https://filipjezek.github.io/resources/county> ;
+    ns1:notation "CZ0426" ;
+    ns1:prefLabel "Teplice"@cs ;
+    ns1:topConceptOf <https://filipjezek.github.io/resources/county> .
+
+<https://filipjezek.github.io/resources/county-CZ0427> a ns1:Concept,
+        <https://filipjezek.github.io/resources/County> ;
+    rdfs:label "Ústí nad Labem"@cs ;
+    ns1:inScheme <https://filipjezek.github.io/resources/county> ;
+    ns1:notation "CZ0427" ;
+    ns1:prefLabel "Ústí nad Labem"@cs ;
+    ns1:topConceptOf <https://filipjezek.github.io/resources/county> .
+
+<https://filipjezek.github.io/resources/county-CZ0511> a ns1:Concept,
+        <https://filipjezek.github.io/resources/County> ;
+    rdfs:label "Česká Lípa"@cs ;
+    ns1:inScheme <https://filipjezek.github.io/resources/county> ;
+    ns1:notation "CZ0511" ;
+    ns1:prefLabel "Česká Lípa"@cs ;
+    ns1:topConceptOf <https://filipjezek.github.io/resources/county> .
+
+<https://filipjezek.github.io/resources/county-CZ0512> a ns1:Concept,
+        <https://filipjezek.github.io/resources/County> ;
+    rdfs:label "Jablonec nad Nisou"@cs ;
+    ns1:inScheme <https://filipjezek.github.io/resources/county> ;
+    ns1:notation "CZ0512" ;
+    ns1:prefLabel "Jablonec nad Nisou"@cs ;
+    ns1:topConceptOf <https://filipjezek.github.io/resources/county> .
+
+<https://filipjezek.github.io/resources/county-CZ0513> a ns1:Concept,
+        <https://filipjezek.github.io/resources/County> ;
+    rdfs:label "Liberec"@cs ;
+    ns1:inScheme <https://filipjezek.github.io/resources/county> ;
+    ns1:notation "CZ0513" ;
+    ns1:prefLabel "Liberec"@cs ;
+    ns1:topConceptOf <https://filipjezek.github.io/resources/county> .
+
+<https://filipjezek.github.io/resources/county-CZ0514> a ns1:Concept,
+        <https://filipjezek.github.io/resources/County> ;
+    rdfs:label "Semily"@cs ;
+    ns1:inScheme <https://filipjezek.github.io/resources/county> ;
+    ns1:notation "CZ0514" ;
+    ns1:prefLabel "Semily"@cs ;
+    ns1:topConceptOf <https://filipjezek.github.io/resources/county> .
+
+<https://filipjezek.github.io/resources/county-CZ0521> a ns1:Concept,
+        <https://filipjezek.github.io/resources/County> ;
+    rdfs:label "Hradec Králové"@cs ;
+    ns1:inScheme <https://filipjezek.github.io/resources/county> ;
+    ns1:notation "CZ0521" ;
+    ns1:prefLabel "Hradec Králové"@cs ;
+    ns1:topConceptOf <https://filipjezek.github.io/resources/county> .
+
+<https://filipjezek.github.io/resources/county-CZ0522> a ns1:Concept,
+        <https://filipjezek.github.io/resources/County> ;
+    rdfs:label "Jičín"@cs ;
+    ns1:inScheme <https://filipjezek.github.io/resources/county> ;
+    ns1:notation "CZ0522" ;
+    ns1:prefLabel "Jičín"@cs ;
+    ns1:topConceptOf <https://filipjezek.github.io/resources/county> .
+
+<https://filipjezek.github.io/resources/county-CZ0523> a ns1:Concept,
+        <https://filipjezek.github.io/resources/County> ;
+    rdfs:label "Náchod"@cs ;
+    ns1:inScheme <https://filipjezek.github.io/resources/county> ;
+    ns1:notation "CZ0523" ;
+    ns1:prefLabel "Náchod"@cs ;
+    ns1:topConceptOf <https://filipjezek.github.io/resources/county> .
+
+<https://filipjezek.github.io/resources/county-CZ0524> a ns1:Concept,
+        <https://filipjezek.github.io/resources/County> ;
+    rdfs:label "Rychnov nad Kněžnou"@cs ;
+    ns1:inScheme <https://filipjezek.github.io/resources/county> ;
+    ns1:notation "CZ0524" ;
+    ns1:prefLabel "Rychnov nad Kněžnou"@cs ;
+    ns1:topConceptOf <https://filipjezek.github.io/resources/county> .
+
+<https://filipjezek.github.io/resources/county-CZ0525> a ns1:Concept,
+        <https://filipjezek.github.io/resources/County> ;
+    rdfs:label "Trutnov"@cs ;
+    ns1:inScheme <https://filipjezek.github.io/resources/county> ;
+    ns1:notation "CZ0525" ;
+    ns1:prefLabel "Trutnov"@cs ;
+    ns1:topConceptOf <https://filipjezek.github.io/resources/county> .
+
+<https://filipjezek.github.io/resources/county-CZ0531> a ns1:Concept,
+        <https://filipjezek.github.io/resources/County> ;
+    rdfs:label "Chrudim"@cs ;
+    ns1:inScheme <https://filipjezek.github.io/resources/county> ;
+    ns1:notation "CZ0531" ;
+    ns1:prefLabel "Chrudim"@cs ;
+    ns1:topConceptOf <https://filipjezek.github.io/resources/county> .
+
+<https://filipjezek.github.io/resources/county-CZ0532> a ns1:Concept,
+        <https://filipjezek.github.io/resources/County> ;
+    rdfs:label "Pardubice"@cs ;
+    ns1:inScheme <https://filipjezek.github.io/resources/county> ;
+    ns1:notation "CZ0532" ;
+    ns1:prefLabel "Pardubice"@cs ;
+    ns1:topConceptOf <https://filipjezek.github.io/resources/county> .
+
+<https://filipjezek.github.io/resources/county-CZ0533> a ns1:Concept,
+        <https://filipjezek.github.io/resources/County> ;
+    rdfs:label "Svitavy"@cs ;
+    ns1:inScheme <https://filipjezek.github.io/resources/county> ;
+    ns1:notation "CZ0533" ;
+    ns1:prefLabel "Svitavy"@cs ;
+    ns1:topConceptOf <https://filipjezek.github.io/resources/county> .
+
+<https://filipjezek.github.io/resources/county-CZ0534> a ns1:Concept,
+        <https://filipjezek.github.io/resources/County> ;
+    rdfs:label "Ústí nad Orlicí"@cs ;
+    ns1:inScheme <https://filipjezek.github.io/resources/county> ;
+    ns1:notation "CZ0534" ;
+    ns1:prefLabel "Ústí nad Orlicí"@cs ;
+    ns1:topConceptOf <https://filipjezek.github.io/resources/county> .
+
+<https://filipjezek.github.io/resources/county-CZ0631> a ns1:Concept,
+        <https://filipjezek.github.io/resources/County> ;
+    rdfs:label "Havlíčkův Brod"@cs ;
+    ns1:inScheme <https://filipjezek.github.io/resources/county> ;
+    ns1:notation "CZ0631" ;
+    ns1:prefLabel "Havlíčkův Brod"@cs ;
+    ns1:topConceptOf <https://filipjezek.github.io/resources/county> .
+
+<https://filipjezek.github.io/resources/county-CZ0632> a ns1:Concept,
+        <https://filipjezek.github.io/resources/County> ;
+    rdfs:label "Jihlava"@cs ;
+    ns1:inScheme <https://filipjezek.github.io/resources/county> ;
+    ns1:notation "CZ0632" ;
+    ns1:prefLabel "Jihlava"@cs ;
+    ns1:topConceptOf <https://filipjezek.github.io/resources/county> .
+
+<https://filipjezek.github.io/resources/county-CZ0633> a ns1:Concept,
+        <https://filipjezek.github.io/resources/County> ;
+    rdfs:label "Pelhřimov"@cs ;
+    ns1:inScheme <https://filipjezek.github.io/resources/county> ;
+    ns1:notation "CZ0633" ;
+    ns1:prefLabel "Pelhřimov"@cs ;
+    ns1:topConceptOf <https://filipjezek.github.io/resources/county> .
+
+<https://filipjezek.github.io/resources/county-CZ0634> a ns1:Concept,
+        <https://filipjezek.github.io/resources/County> ;
+    rdfs:label "Třebíč"@cs ;
+    ns1:inScheme <https://filipjezek.github.io/resources/county> ;
+    ns1:notation "CZ0634" ;
+    ns1:prefLabel "Třebíč"@cs ;
+    ns1:topConceptOf <https://filipjezek.github.io/resources/county> .
+
+<https://filipjezek.github.io/resources/county-CZ0635> a ns1:Concept,
+        <https://filipjezek.github.io/resources/County> ;
+    rdfs:label "Žďár nad Sázavou"@cs ;
+    ns1:inScheme <https://filipjezek.github.io/resources/county> ;
+    ns1:notation "CZ0635" ;
+    ns1:prefLabel "Žďár nad Sázavou"@cs ;
+    ns1:topConceptOf <https://filipjezek.github.io/resources/county> .
+
+<https://filipjezek.github.io/resources/county-CZ0641> a ns1:Concept,
+        <https://filipjezek.github.io/resources/County> ;
+    rdfs:label "Blansko"@cs ;
+    ns1:inScheme <https://filipjezek.github.io/resources/county> ;
+    ns1:notation "CZ0641" ;
+    ns1:prefLabel "Blansko"@cs ;
+    ns1:topConceptOf <https://filipjezek.github.io/resources/county> .
+
+<https://filipjezek.github.io/resources/county-CZ0642> a ns1:Concept,
+        <https://filipjezek.github.io/resources/County> ;
+    rdfs:label "Brno-město"@cs ;
+    ns1:inScheme <https://filipjezek.github.io/resources/county> ;
+    ns1:notation "CZ0642" ;
+    ns1:prefLabel "Brno-město"@cs ;
+    ns1:topConceptOf <https://filipjezek.github.io/resources/county> .
+
+<https://filipjezek.github.io/resources/county-CZ0643> a ns1:Concept,
+        <https://filipjezek.github.io/resources/County> ;
+    rdfs:label "Brno-venkov"@cs ;
+    ns1:inScheme <https://filipjezek.github.io/resources/county> ;
+    ns1:notation "CZ0643" ;
+    ns1:prefLabel "Brno-venkov"@cs ;
+    ns1:topConceptOf <https://filipjezek.github.io/resources/county> .
+
+<https://filipjezek.github.io/resources/county-CZ0644> a ns1:Concept,
+        <https://filipjezek.github.io/resources/County> ;
+    rdfs:label "Břeclav"@cs ;
+    ns1:inScheme <https://filipjezek.github.io/resources/county> ;
+    ns1:notation "CZ0644" ;
+    ns1:prefLabel "Břeclav"@cs ;
+    ns1:topConceptOf <https://filipjezek.github.io/resources/county> .
+
+<https://filipjezek.github.io/resources/county-CZ0645> a ns1:Concept,
+        <https://filipjezek.github.io/resources/County> ;
+    rdfs:label "Hodonín"@cs ;
+    ns1:inScheme <https://filipjezek.github.io/resources/county> ;
+    ns1:notation "CZ0645" ;
+    ns1:prefLabel "Hodonín"@cs ;
+    ns1:topConceptOf <https://filipjezek.github.io/resources/county> .
+
+<https://filipjezek.github.io/resources/county-CZ0646> a ns1:Concept,
+        <https://filipjezek.github.io/resources/County> ;
+    rdfs:label "Vyškov"@cs ;
+    ns1:inScheme <https://filipjezek.github.io/resources/county> ;
+    ns1:notation "CZ0646" ;
+    ns1:prefLabel "Vyškov"@cs ;
+    ns1:topConceptOf <https://filipjezek.github.io/resources/county> .
+
+<https://filipjezek.github.io/resources/county-CZ0647> a ns1:Concept,
+        <https://filipjezek.github.io/resources/County> ;
+    rdfs:label "Znojmo"@cs ;
+    ns1:inScheme <https://filipjezek.github.io/resources/county> ;
+    ns1:notation "CZ0647" ;
+    ns1:prefLabel "Znojmo"@cs ;
+    ns1:topConceptOf <https://filipjezek.github.io/resources/county> .
+
+<https://filipjezek.github.io/resources/county-CZ0711> a ns1:Concept,
+        <https://filipjezek.github.io/resources/County> ;
+    rdfs:label "Jeseník"@cs ;
+    ns1:inScheme <https://filipjezek.github.io/resources/county> ;
+    ns1:notation "CZ0711" ;
+    ns1:prefLabel "Jeseník"@cs ;
+    ns1:topConceptOf <https://filipjezek.github.io/resources/county> .
+
+<https://filipjezek.github.io/resources/county-CZ0712> a ns1:Concept,
+        <https://filipjezek.github.io/resources/County> ;
+    rdfs:label "Olomouc"@cs ;
+    ns1:inScheme <https://filipjezek.github.io/resources/county> ;
+    ns1:notation "CZ0712" ;
+    ns1:prefLabel "Olomouc"@cs ;
+    ns1:topConceptOf <https://filipjezek.github.io/resources/county> .
+
+<https://filipjezek.github.io/resources/county-CZ0713> a ns1:Concept,
+        <https://filipjezek.github.io/resources/County> ;
+    rdfs:label "Prostějov"@cs ;
+    ns1:inScheme <https://filipjezek.github.io/resources/county> ;
+    ns1:notation "CZ0713" ;
+    ns1:prefLabel "Prostějov"@cs ;
+    ns1:topConceptOf <https://filipjezek.github.io/resources/county> .
+
+<https://filipjezek.github.io/resources/county-CZ0714> a ns1:Concept,
+        <https://filipjezek.github.io/resources/County> ;
+    rdfs:label "Přerov"@cs ;
+    ns1:inScheme <https://filipjezek.github.io/resources/county> ;
+    ns1:notation "CZ0714" ;
+    ns1:prefLabel "Přerov"@cs ;
+    ns1:topConceptOf <https://filipjezek.github.io/resources/county> .
+
+<https://filipjezek.github.io/resources/county-CZ0715> a ns1:Concept,
+        <https://filipjezek.github.io/resources/County> ;
+    rdfs:label "Šumperk"@cs ;
+    ns1:inScheme <https://filipjezek.github.io/resources/county> ;
+    ns1:notation "CZ0715" ;
+    ns1:prefLabel "Šumperk"@cs ;
+    ns1:topConceptOf <https://filipjezek.github.io/resources/county> .
+
+<https://filipjezek.github.io/resources/county-CZ0721> a ns1:Concept,
+        <https://filipjezek.github.io/resources/County> ;
+    rdfs:label "Kroměříž"@cs ;
+    ns1:inScheme <https://filipjezek.github.io/resources/county> ;
+    ns1:notation "CZ0721" ;
+    ns1:prefLabel "Kroměříž"@cs ;
+    ns1:topConceptOf <https://filipjezek.github.io/resources/county> .
+
+<https://filipjezek.github.io/resources/county-CZ0722> a ns1:Concept,
+        <https://filipjezek.github.io/resources/County> ;
+    rdfs:label "Uherské Hradiště"@cs ;
+    ns1:inScheme <https://filipjezek.github.io/resources/county> ;
+    ns1:notation "CZ0722" ;
+    ns1:prefLabel "Uherské Hradiště"@cs ;
+    ns1:topConceptOf <https://filipjezek.github.io/resources/county> .
+
+<https://filipjezek.github.io/resources/county-CZ0723> a ns1:Concept,
+        <https://filipjezek.github.io/resources/County> ;
+    rdfs:label "Vsetín"@cs ;
+    ns1:inScheme <https://filipjezek.github.io/resources/county> ;
+    ns1:notation "CZ0723" ;
+    ns1:prefLabel "Vsetín"@cs ;
+    ns1:topConceptOf <https://filipjezek.github.io/resources/county> .
+
+<https://filipjezek.github.io/resources/county-CZ0724> a ns1:Concept,
+        <https://filipjezek.github.io/resources/County> ;
+    rdfs:label "Zlín"@cs ;
+    ns1:inScheme <https://filipjezek.github.io/resources/county> ;
+    ns1:notation "CZ0724" ;
+    ns1:prefLabel "Zlín"@cs ;
+    ns1:topConceptOf <https://filipjezek.github.io/resources/county> .
+
+<https://filipjezek.github.io/resources/county-CZ0801> a ns1:Concept,
+        <https://filipjezek.github.io/resources/County> ;
+    rdfs:label "Bruntál"@cs ;
+    ns1:inScheme <https://filipjezek.github.io/resources/county> ;
+    ns1:notation "CZ0801" ;
+    ns1:prefLabel "Bruntál"@cs ;
+    ns1:topConceptOf <https://filipjezek.github.io/resources/county> .
+
+<https://filipjezek.github.io/resources/county-CZ0802> a ns1:Concept,
+        <https://filipjezek.github.io/resources/County> ;
+    rdfs:label "Frýdek-Místek"@cs ;
+    ns1:inScheme <https://filipjezek.github.io/resources/county> ;
+    ns1:notation "CZ0802" ;
+    ns1:prefLabel "Frýdek-Místek"@cs ;
+    ns1:topConceptOf <https://filipjezek.github.io/resources/county> .
+
+<https://filipjezek.github.io/resources/county-CZ0803> a ns1:Concept,
+        <https://filipjezek.github.io/resources/County> ;
+    rdfs:label "Karviná"@cs ;
+    ns1:inScheme <https://filipjezek.github.io/resources/county> ;
+    ns1:notation "CZ0803" ;
+    ns1:prefLabel "Karviná"@cs ;
+    ns1:topConceptOf <https://filipjezek.github.io/resources/county> .
+
+<https://filipjezek.github.io/resources/county-CZ0804> a ns1:Concept,
+        <https://filipjezek.github.io/resources/County> ;
+    rdfs:label "Nový Jičín"@cs ;
+    ns1:inScheme <https://filipjezek.github.io/resources/county> ;
+    ns1:notation "CZ0804" ;
+    ns1:prefLabel "Nový Jičín"@cs ;
+    ns1:topConceptOf <https://filipjezek.github.io/resources/county> .
+
+<https://filipjezek.github.io/resources/county-CZ0805> a ns1:Concept,
+        <https://filipjezek.github.io/resources/County> ;
+    rdfs:label "Opava"@cs ;
+    ns1:inScheme <https://filipjezek.github.io/resources/county> ;
+    ns1:notation "CZ0805" ;
+    ns1:prefLabel "Opava"@cs ;
+    ns1:topConceptOf <https://filipjezek.github.io/resources/county> .
+
+<https://filipjezek.github.io/resources/county-CZ0806> a ns1:Concept,
+        <https://filipjezek.github.io/resources/County> ;
+    rdfs:label "Ostrava-město"@cs ;
+    ns1:inScheme <https://filipjezek.github.io/resources/county> ;
+    ns1:notation "CZ0806" ;
+    ns1:prefLabel "Ostrava-město"@cs ;
+    ns1:topConceptOf <https://filipjezek.github.io/resources/county> .
+
+<https://filipjezek.github.io/resources/region-CZ041> a ns1:Concept,
+        <https://filipjezek.github.io/resources/Region> ;
+    rdfs:label "Karlovarský kraj"@cs ;
+    ns1:inScheme <https://filipjezek.github.io/resources/region> ;
+    ns1:notation "CZ041" ;
+    ns1:prefLabel "Karlovarský kraj"@cs ;
+    ns1:topConceptOf <https://filipjezek.github.io/resources/region> .
+
+<https://filipjezek.github.io/resources/region-CZ051> a ns1:Concept,
+        <https://filipjezek.github.io/resources/Region> ;
+    rdfs:label "Liberecký kraj"@cs ;
+    ns1:inScheme <https://filipjezek.github.io/resources/region> ;
+    ns1:notation "CZ051" ;
+    ns1:prefLabel "Liberecký kraj"@cs ;
+    ns1:topConceptOf <https://filipjezek.github.io/resources/region> .
+
+<https://filipjezek.github.io/resources/region-CZ053> a ns1:Concept,
+        <https://filipjezek.github.io/resources/Region> ;
+    rdfs:label "Pardubický kraj"@cs ;
+    ns1:inScheme <https://filipjezek.github.io/resources/region> ;
+    ns1:notation "CZ053" ;
+    ns1:prefLabel "Pardubický kraj"@cs ;
+    ns1:topConceptOf <https://filipjezek.github.io/resources/region> .
+
+<https://filipjezek.github.io/resources/region-CZ072> a ns1:Concept,
+        <https://filipjezek.github.io/resources/Region> ;
+    rdfs:label "Zlínský kraj"@cs ;
+    ns1:inScheme <https://filipjezek.github.io/resources/region> ;
+    ns1:notation "CZ072" ;
+    ns1:prefLabel "Zlínský kraj"@cs ;
+    ns1:topConceptOf <https://filipjezek.github.io/resources/region> .
+
+<https://filipjezek.github.io/resources/region-CZ052> a ns1:Concept,
+        <https://filipjezek.github.io/resources/Region> ;
+    rdfs:label "Královéhradecký kraj"@cs ;
+    ns1:inScheme <https://filipjezek.github.io/resources/region> ;
+    ns1:notation "CZ052" ;
+    ns1:prefLabel "Královéhradecký kraj"@cs ;
+    ns1:topConceptOf <https://filipjezek.github.io/resources/region> .
+
+<https://filipjezek.github.io/resources/region-CZ063> a ns1:Concept,
+        <https://filipjezek.github.io/resources/Region> ;
+    rdfs:label "Kraj Vysočina"@cs ;
+    ns1:inScheme <https://filipjezek.github.io/resources/region> ;
+    ns1:notation "CZ063" ;
+    ns1:prefLabel "Kraj Vysočina"@cs ;
+    ns1:topConceptOf <https://filipjezek.github.io/resources/region> .
+
+<https://filipjezek.github.io/resources/region-CZ071> a ns1:Concept,
+        <https://filipjezek.github.io/resources/Region> ;
+    rdfs:label "Olomoucký kraj"@cs ;
+    ns1:inScheme <https://filipjezek.github.io/resources/region> ;
+    ns1:notation "CZ071" ;
+    ns1:prefLabel "Olomoucký kraj"@cs ;
+    ns1:topConceptOf <https://filipjezek.github.io/resources/region> .
+
+<https://filipjezek.github.io/resources/region-CZ080> a ns1:Concept,
+        <https://filipjezek.github.io/resources/Region> ;
+    rdfs:label "Moravskoslezský kraj"@cs ;
+    ns1:inScheme <https://filipjezek.github.io/resources/region> ;
+    ns1:notation "CZ080" ;
+    ns1:prefLabel "Moravskoslezský kraj"@cs ;
+    ns1:topConceptOf <https://filipjezek.github.io/resources/region> .
+
+<https://filipjezek.github.io/resources/region-CZ031> a ns1:Concept,
+        <https://filipjezek.github.io/resources/Region> ;
+    rdfs:label "Jihočeský kraj"@cs ;
+    ns1:inScheme <https://filipjezek.github.io/resources/region> ;
+    ns1:notation "CZ031" ;
+    ns1:prefLabel "Jihočeský kraj"@cs ;
+    ns1:topConceptOf <https://filipjezek.github.io/resources/region> .
+
+<https://filipjezek.github.io/resources/region-CZ032> a ns1:Concept,
+        <https://filipjezek.github.io/resources/Region> ;
+    rdfs:label "Plzeňský kraj"@cs ;
+    ns1:inScheme <https://filipjezek.github.io/resources/region> ;
+    ns1:notation "CZ032" ;
+    ns1:prefLabel "Plzeňský kraj"@cs ;
+    ns1:topConceptOf <https://filipjezek.github.io/resources/region> .
+
+<https://filipjezek.github.io/resources/region-CZ042> a ns1:Concept,
+        <https://filipjezek.github.io/resources/Region> ;
+    rdfs:label "Ústecký kraj"@cs ;
+    ns1:inScheme <https://filipjezek.github.io/resources/region> ;
+    ns1:notation "CZ042" ;
+    ns1:prefLabel "Ústecký kraj"@cs ;
+    ns1:topConceptOf <https://filipjezek.github.io/resources/region> .
+
+<https://filipjezek.github.io/resources/region-CZ064> a ns1:Concept,
+        <https://filipjezek.github.io/resources/Region> ;
+    rdfs:label "Jihomoravský kraj"@cs ;
+    ns1:inScheme <https://filipjezek.github.io/resources/region> ;
+    ns1:notation "CZ064" ;
+    ns1:prefLabel "Jihomoravský kraj"@cs ;
+    ns1:topConceptOf <https://filipjezek.github.io/resources/region> .
+
+<https://filipjezek.github.io/resources/region-CZ020> a ns1:Concept,
+        <https://filipjezek.github.io/resources/Region> ;
+    rdfs:label "Středočeský kraj"@cs ;
+    ns1:inScheme <https://filipjezek.github.io/resources/region> ;
+    ns1:notation "CZ020" ;
+    ns1:prefLabel "Středočeský kraj"@cs ;
+    ns1:topConceptOf <https://filipjezek.github.io/resources/region> .
+
+<https://filipjezek.github.io/resources/region> a ns1:ConceptScheme ;
+    rdfs:label "Číselník krajů - schéma"@cs,
+        "Code list for regions - scheme"@en ;
+    ns1:hasTopConcept <https://filipjezek.github.io/resources/region-CZ020>,
+        <https://filipjezek.github.io/resources/region-CZ031>,
+        <https://filipjezek.github.io/resources/region-CZ032>,
+        <https://filipjezek.github.io/resources/region-CZ041>,
+        <https://filipjezek.github.io/resources/region-CZ042>,
+        <https://filipjezek.github.io/resources/region-CZ051>,
+        <https://filipjezek.github.io/resources/region-CZ052>,
+        <https://filipjezek.github.io/resources/region-CZ053>,
+        <https://filipjezek.github.io/resources/region-CZ063>,
+        <https://filipjezek.github.io/resources/region-CZ064>,
+        <https://filipjezek.github.io/resources/region-CZ071>,
+        <https://filipjezek.github.io/resources/region-CZ072>,
+        <https://filipjezek.github.io/resources/region-CZ080> ;
+    ns1:prefLabel "Číselník krajů - schéma"@cs,
+        "Code list for regions - scheme"@en .
+
+<https://filipjezek.github.io/resources/dataCubeInstance> a ns3:DataSet ;
+    rdfs:label "Obyvatelé okresy"@cs,
+        "Population"@en ;
+    ns4:issued "2023-05-22"^^xsd:date ;
+    ns4:license "https://opensource.org/license/MIT/" ;
+    ns4:modified "2023-05-22"^^xsd:date ;
+    ns4:publisher "https://github.com/filipjezek" ;
+    ns3:structure ns2:structure .
+
+<https://filipjezek.github.io/resources/county> a ns1:ConceptScheme ;
+    rdfs:label "Číselník okresů - schéma"@cs,
+        "Code list for counties - scheme"@en ;
+    ns1:hasTopConcept <https://filipjezek.github.io/resources/county-CZ0201>,
+        <https://filipjezek.github.io/resources/county-CZ0202>,
+        <https://filipjezek.github.io/resources/county-CZ0203>,
+        <https://filipjezek.github.io/resources/county-CZ0204>,
+        <https://filipjezek.github.io/resources/county-CZ0205>,
+        <https://filipjezek.github.io/resources/county-CZ0206>,
+        <https://filipjezek.github.io/resources/county-CZ0207>,
+        <https://filipjezek.github.io/resources/county-CZ0208>,
+        <https://filipjezek.github.io/resources/county-CZ0209>,
+        <https://filipjezek.github.io/resources/county-CZ020A>,
+        <https://filipjezek.github.io/resources/county-CZ020B>,
+        <https://filipjezek.github.io/resources/county-CZ020C>,
+        <https://filipjezek.github.io/resources/county-CZ0311>,
+        <https://filipjezek.github.io/resources/county-CZ0312>,
+        <https://filipjezek.github.io/resources/county-CZ0313>,
+        <https://filipjezek.github.io/resources/county-CZ0314>,
+        <https://filipjezek.github.io/resources/county-CZ0315>,
+        <https://filipjezek.github.io/resources/county-CZ0316>,
+        <https://filipjezek.github.io/resources/county-CZ0317>,
+        <https://filipjezek.github.io/resources/county-CZ0321>,
+        <https://filipjezek.github.io/resources/county-CZ0322>,
+        <https://filipjezek.github.io/resources/county-CZ0323>,
+        <https://filipjezek.github.io/resources/county-CZ0324>,
+        <https://filipjezek.github.io/resources/county-CZ0325>,
+        <https://filipjezek.github.io/resources/county-CZ0326>,
+        <https://filipjezek.github.io/resources/county-CZ0327>,
+        <https://filipjezek.github.io/resources/county-CZ0411>,
+        <https://filipjezek.github.io/resources/county-CZ0412>,
+        <https://filipjezek.github.io/resources/county-CZ0413>,
+        <https://filipjezek.github.io/resources/county-CZ0421>,
+        <https://filipjezek.github.io/resources/county-CZ0422>,
+        <https://filipjezek.github.io/resources/county-CZ0423>,
+        <https://filipjezek.github.io/resources/county-CZ0424>,
+        <https://filipjezek.github.io/resources/county-CZ0425>,
+        <https://filipjezek.github.io/resources/county-CZ0426>,
+        <https://filipjezek.github.io/resources/county-CZ0427>,
+        <https://filipjezek.github.io/resources/county-CZ0511>,
+        <https://filipjezek.github.io/resources/county-CZ0512>,
+        <https://filipjezek.github.io/resources/county-CZ0513>,
+        <https://filipjezek.github.io/resources/county-CZ0514>,
+        <https://filipjezek.github.io/resources/county-CZ0521>,
+        <https://filipjezek.github.io/resources/county-CZ0522>,
+        <https://filipjezek.github.io/resources/county-CZ0523>,
+        <https://filipjezek.github.io/resources/county-CZ0524>,
+        <https://filipjezek.github.io/resources/county-CZ0525>,
+        <https://filipjezek.github.io/resources/county-CZ0531>,
+        <https://filipjezek.github.io/resources/county-CZ0532>,
+        <https://filipjezek.github.io/resources/county-CZ0533>,
+        <https://filipjezek.github.io/resources/county-CZ0534>,
+        <https://filipjezek.github.io/resources/county-CZ0631>,
+        <https://filipjezek.github.io/resources/county-CZ0632>,
+        <https://filipjezek.github.io/resources/county-CZ0633>,
+        <https://filipjezek.github.io/resources/county-CZ0634>,
+        <https://filipjezek.github.io/resources/county-CZ0635>,
+        <https://filipjezek.github.io/resources/county-CZ0641>,
+        <https://filipjezek.github.io/resources/county-CZ0642>,
+        <https://filipjezek.github.io/resources/county-CZ0643>,
+        <https://filipjezek.github.io/resources/county-CZ0644>,
+        <https://filipjezek.github.io/resources/county-CZ0645>,
+        <https://filipjezek.github.io/resources/county-CZ0646>,
+        <https://filipjezek.github.io/resources/county-CZ0647>,
+        <https://filipjezek.github.io/resources/county-CZ0711>,
+        <https://filipjezek.github.io/resources/county-CZ0712>,
+        <https://filipjezek.github.io/resources/county-CZ0713>,
+        <https://filipjezek.github.io/resources/county-CZ0714>,
+        <https://filipjezek.github.io/resources/county-CZ0715>,
+        <https://filipjezek.github.io/resources/county-CZ0721>,
+        <https://filipjezek.github.io/resources/county-CZ0722>,
+        <https://filipjezek.github.io/resources/county-CZ0723>,
+        <https://filipjezek.github.io/resources/county-CZ0724>,
+        <https://filipjezek.github.io/resources/county-CZ0801>,
+        <https://filipjezek.github.io/resources/county-CZ0802>,
+        <https://filipjezek.github.io/resources/county-CZ0803>,
+        <https://filipjezek.github.io/resources/county-CZ0804>,
+        <https://filipjezek.github.io/resources/county-CZ0805>,
+        <https://filipjezek.github.io/resources/county-CZ0806> ;
+    ns1:prefLabel "Číselník okresů - schéma"@cs,
+        "Code list for counties - scheme"@en .
+
